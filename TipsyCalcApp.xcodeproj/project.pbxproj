@@ -14,6 +14,7 @@
 		120302E61F8B63DD0053CCEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120302E41F8B63DD0053CCEB /* LaunchScreen.storyboard */; };
 		120302F11F8B63DD0053CCEB /* TipsyCalcAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120302F01F8B63DD0053CCEB /* TipsyCalcAppTests.swift */; };
 		120302FC1F8B63DD0053CCEB /* TipsyCalcAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120302FB1F8B63DD0053CCEB /* TipsyCalcAppUITests.swift */; };
+		1203030B1F8B6CF80053CCEB /* TipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203030A1F8B6CF80053CCEB /* TipModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		120302F71F8B63DD0053CCEB /* TipsyCalcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyCalcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		120302FB1F8B63DD0053CCEB /* TipsyCalcAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyCalcAppUITests.swift; sourceTree = "<group>"; };
 		120302FD1F8B63DD0053CCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1203030A1F8B6CF80053CCEB /* TipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		120302DA1F8B63DD0053CCEB /* TipsyCalcApp */ = {
 			isa = PBXGroup;
 			children = (
+				120303091F8B6CE90053CCEB /* Model */,
 				120302DB1F8B63DD0053CCEB /* AppDelegate.swift */,
 				120302DD1F8B63DD0053CCEB /* ViewController.swift */,
 				120302DF1F8B63DD0053CCEB /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				120302FD1F8B63DD0053CCEB /* Info.plist */,
 			);
 			path = TipsyCalcAppUITests;
+			sourceTree = "<group>";
+		};
+		120303091F8B6CE90053CCEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1203030A1F8B6CF80053CCEB /* TipModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					120302D71F8B63DD0053CCEB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9FJKPJKAY6;
 						ProvisioningStyle = Automatic;
 					};
 					120302EB1F8B63DD0053CCEB = {
@@ -259,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1203030B1F8B6CF80053CCEB /* TipModel.swift in Sources */,
 				120302DE1F8B63DD0053CCEB /* ViewController.swift in Sources */,
 				120302DC1F8B63DD0053CCEB /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FJKPJKAY6;
 				INFOPLIST_FILE = TipsyCalcApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ace.TipsyCalcApp;
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FJKPJKAY6;
 				INFOPLIST_FILE = TipsyCalcApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ace.TipsyCalcApp;
